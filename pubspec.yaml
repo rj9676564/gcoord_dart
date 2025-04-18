@@ -1,5 +1,5 @@
 name: gcoord_dart_null_safety
-description: A starting point for Dart libraries or applications.
+description: gcoord_dart support null safe
 version: 0.0.1
 repository: https://github.com/TonyStark106/gcoord_dart
 
@@ -8,5 +8,5 @@ environment:
 
 dev_dependencies:
   test: any
-  geo: any
+  geo: 0.3.0
 #  extended_math: ^0.0.29+1
