@@ -5,7 +5,7 @@ part 'template.dart';
 part 'crs/BD09.dart';
 part 'crs/GCJ02.dart';
 
-Position transform(Position input, CRS crsFrom, CRS crsTo) {
+Position? transform(Position input, CRS crsFrom, CRS crsTo) {
   switch (crsFrom) {
     case CRS.WGS84:
       switch (crsTo) {

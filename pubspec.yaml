@@ -1,12 +1,12 @@
-name: gcoord_dart
+name: gcoord_dart_null_safety
 description: A starting point for Dart libraries or applications.
-version: 0.2.3
+version: 0.0.1
 repository: https://github.com/TonyStark106/gcoord_dart
 
 environment:
-  sdk: '>=2.8.1 <3.0.0'
+  sdk: '>=3.1.0 <4.0.0'
 
 dev_dependencies:
-  test: ^1.14.4
-  geo: ^0.2.4
-  extended_math: ^0.0.29+1
+  test: any
+  geo: any
+#  extended_math: ^0.0.29+1
